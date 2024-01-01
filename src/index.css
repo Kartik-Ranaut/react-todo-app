@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items: center;
+  text-align: center;
+  background-color: #F7ECDE;
+}
+
+.interface{
+  width: 912px;
+  height: 520px;
+  background-color: rgb(241, 155, 155);
+  display: flex;
+  gap:12px;
+
+}
+.category{
+  width: 250px;
+  height: 520px;
+  background-color: #54BAB9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: mixed;
+}
+.addCatbutton{
+  border-radius: 10px;
+  color: white;
+  background-color: #38938A;
+  border: 0px;
+  width: 168px;
+  height: 35px;
+  font-size: 20px;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.catagorybox{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 3px;
+}
